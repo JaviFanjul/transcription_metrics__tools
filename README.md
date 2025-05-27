@@ -2,8 +2,7 @@
 
 Este proyecto está diseñado para comparar directorios que contienen transcripciones generadas por distintos modelos (por ejemplo, `medium` vs `large`).
 
-> **Importante:** Los archivos `.txt` a comparar deben tener el **mismo nombre** en ambos directorios. Las rutas están hardcodeadas en el script, por lo que se espera una estructura de carpetas predefinida.
-
+> **Importante:** Los archivos `.txt` a comparar deben tener el **mismo nombre** en ambos directorios.
 ### Scripts disponibles
 
 - **`transcription_comparation.py`**  
