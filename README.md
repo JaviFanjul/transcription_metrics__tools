@@ -1,4 +1,19 @@
-"# transcription_metrics__tools" 
-Las rutas estan hardcodeadas, esta pensado para comparar directorios con transcripciones pe: comparar transcripciones usando modelo large y modelo medium. Es importante que los .txt a comparar tenga el mismo nombre
-El script transcription_comparation.py genera un .csv con los resultados
-El script metric_representation.py usa ese .csv como entrada para generar una carpeta con diferentes graficos comparativos. La carpeta se crea en el directorio raiz
+## Comparación de Transcripciones
+
+Este proyecto está diseñado para comparar directorios que contienen transcripciones generadas por distintos modelos (por ejemplo, `medium` vs `large`).
+
+> **Importante:** Los archivos `.txt` a comparar deben tener el **mismo nombre** en ambos directorios. Las rutas están hardcodeadas en el script, por lo que se espera una estructura de carpetas predefinida.
+
+### Scripts disponibles
+
+- **`transcription_comparation.py`**  
+  Compara los archivos de texto entre dos directorios y genera un archivo `.csv` con los resultados de la comparación.
+
+- **`metric_representation.py`**  
+  Utiliza el archivo `.csv` generado por el script anterior como entrada y crea una carpeta en el directorio raíz con diferentes **gráficos comparativos**.
+
+### Ejemplo de uso
+
+```bash
+python transcription_comparation.py
+python metric_representation.py
